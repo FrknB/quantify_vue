@@ -1,0 +1,944 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --background-body: #1E1E1E;
+    --header-bacground: #1A1A1A;
+    --menu-link: #F2F2F2;
+    --menu-link-hover: #EB3A57;
+    --signup-button: #CB2641;
+    --googel-logo: #808080;
+}
+.container {
+    width: 100%;
+    height: auto;
+    color: #F2F2F2;
+}
+body{
+    background-color: #1E1E1E;
+}
+
+/* MEDIA QUERY */
+@media screen  and (max-width: 1440px){
+    .header {
+        width: 100%;
+        padding: 0 90px;
+    }
+    .toggle{
+        display: none;
+    }
+    .log-items{
+        margin-left: 202px; 
+        gap: 18px;
+    }
+    .log-items span{
+        margin-left: 18px;
+    }
+    /* ACCOUNT AREA START */
+    .account-area{
+        padding: 120px 90px;
+    }
+    .area-1 {
+        font-size: 46px;
+        font-weight: 700;
+    }
+    .btn {
+        width: 428px;
+    }
+    .area-3 {
+        gap: 12px;
+    }
+    .area-3 span{
+        font-size: 14px;
+    }
+    /* ACCOUNT AREA END */
+
+    /* COIN STATUS START */
+    .coin-status{
+        padding: 120px 90px;
+    }
+    .coin-info{
+        width: 100%;
+        margin-bottom: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .statu-boxs{
+        height: 120px;
+        width: 364px;
+        background: #3C3C3C;
+        border: 2px solid #CB2641;
+        border-radius: 8px;
+        padding-left: 20px;
+        padding-top: 20px;
+        flex-wrap: wrap;
+        font-weight: 700;
+    }
+    .statu-boxs .value{
+        font-size: 40px;
+        padding-bottom: 8px;
+    }
+    .statu-boxs p .coin-text{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    /* COIN STATUS END */
+
+    /* NFT STATUS START */
+.gradient-text {
+    font-size: 40px;
+}
+.populer-nft{
+    width: 100%;
+    height: 582px;
+    padding: 60px 90px;
+}
+.nfts{
+    gap: 40px;
+    font-size: 16px;
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+.nft-sort{
+    font-size: 20px;
+    margin-right: 18px;
+}
+.nfts h6{
+    font-size: 14px;
+}
+.populer-nft .get-started h2{
+    font-size: 24px;
+}
+/* NFT STATUS END */
+    
+}
+@media screen  and (max-width: 1354px){
+    .header {
+        width: 100%;
+        padding: 0 60px;
+    }
+    .toggle{
+        display: none;
+    }
+    .log-items{
+        margin-left: 20px;
+        gap: 14px;
+    }
+    /* ACCOUNT AREA START */
+    .account-area{
+        padding: 120px 60px;
+        gap: 10px;
+    }
+    .area-1 {
+        font-size: 38px;
+        font-weight: 700;
+    }
+    .area-2 {
+        font-size: 18px;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .landing-image img{
+        width: 440px;
+        height: auto;
+    }
+    .btn {
+        width: 380px;
+        height: 60px;
+        font-size: 18px;
+    }
+    .area-3 {
+        gap: 12px;
+    }
+    .area-3 span{
+        font-size: 13px;
+    }
+    .area-3 img{
+        width: 16.5%;
+    }
+    /* ACCOUNT AREA END */
+
+     /* NFT STATUS START */
+.gradient-text {
+    font-size: 40px;
+}
+.populer-nft{
+    width: 100%;
+    height: 582px;
+    padding: 60px 90px;
+}
+.populer-nft h1{
+    font-size: 40px;
+}
+.nfts{
+    font-size: 16px;
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+.nft-sort{
+    font-size: 20px;
+    margin-right: 18px;
+}
+.nfts h6{
+    font-size: 14px;
+}
+.populer-nft .get-started h2{
+    font-size: 24px;
+}
+/* NFT STATUS END */
+}
+@media screen  and (max-width: 1024px){
+    .header {
+        width: 100%;
+        padding: 0 60px;
+    }
+    .toggle{
+        display: none;
+    }
+    .log-items{
+        margin-left: 40px;
+        gap: 14px;
+    }
+    /* ACCOUNT AREA START */
+    .account-area{
+        padding: 120px 60px;
+        gap: 10px;
+    }
+    .area-1 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .area-2 {
+        font-size: 20px;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .landing-image img{
+        width: 440px;
+        height: auto;
+    }
+    .btn {
+        width: 300px;
+        height: 60px;
+        font-size: 18px;
+    }
+    .area-3 {
+        gap: 12px;
+    }
+    .area-3 img{
+        width: 13.5%;
+    }
+    /* ACCOUNT AREA END */
+
+    /* COIN STATUS START */
+    .coin-status{
+        padding: 120px 20px;
+    }
+    .coin-info{
+        width: 100%;
+        margin-bottom: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 40px;
+    }
+    .statu-boxs{
+        height: 120px;
+        width: 344px;
+        background: #3C3C3C;
+        border: 2px solid #CB2641;
+        border-radius: 8px;
+        padding-left: 20px;
+        padding-top: 20px;
+        flex-wrap: wrap;
+        font-weight: 700;
+        overflow: hidden;
+    }
+    .statu-boxs .value{
+        font-size: 28px;
+        padding-bottom: 8px;
+    }
+    .statu-boxs p .coin-text{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    /* COIN STATUS END */
+
+    /* NFT STATUS START */
+.gradient-text {
+    font-size: 40px;
+}
+.populer-nft{
+    width: 100%;
+    height: 582px;
+    padding: 60px 20px;
+}
+.populer-nft h1{
+    font-size: 40px;
+}
+.nfts{
+    font-size: 16px;
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+.nft-sort{
+    font-size: 20px;
+    margin-right: 18px;
+}
+.nfts h6{
+    font-size: 14px;
+}
+.populer-nft .get-started h2{
+    font-size: 24px;
+}
+/* NFT STATUS END */
+}
+@media screen  and (max-width: 930px){
+    .header {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .header .nav-links{
+        display: none;
+    }
+    .header .nav-links.active{
+        display: flex;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        transition: .3s;
+        z-index: 999;
+        background-color: #1A1A1A;
+    }
+    .header .nav-links a{
+        font-size: 14px;
+        margin: 5px 20px;
+        width: 100%;
+        border-bottom: 1px solid #d4d4d4a7;
+        padding: 10px;
+    }
+    .toggle{
+        display: block;
+    }
+    .header .nav-links .log-items.active{
+        display: flex;
+        width: 80%;
+        align-items: center;
+        margin: 0;
+    }
+    .header .nav-links .log-items a{
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .header .nav-links .log-items #signup{
+        width: 100%;
+        height: 40px;
+        border: none;
+    }
+    /* ACCOUNT AREA START */
+    .account-area{
+        padding: 120px 20px;
+    }
+    .area-1 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .area-2 {
+        font-size: 14px;
+        margin: 20px 0 10px 0;
+    }
+    .landing-image{
+        display: none;
+    }
+    .btn {
+        width: 300px;
+        height: 52px;
+        font-size: 16px;
+    }
+    .area-3 img{
+        width: 7.7%;
+    }
+    /* ACCOUNT AREA END */
+
+    /* COIN STATUS START */
+    .coin-status{
+        padding: 120px 20px;
+    }
+    .coin-info{
+        width: 100%;
+        margin-bottom: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 40px;
+        display: none;
+    }
+    .statu-boxs{
+        height: 120px;
+        width: 344px;
+        background: #3C3C3C;
+        border: 2px solid #CB2641;
+        border-radius: 8px;
+        padding-left: 20px;
+        padding-top: 20px;
+        flex-wrap: wrap;
+        font-weight: 700;
+        overflow: hidden;
+    }
+    .statu-boxs .value{
+        font-size: 28px;
+        padding-bottom: 8px;
+    }
+    .statu-boxs .coin-text p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    /* COIN STATUS END */
+
+    /* COIN TABLE START */
+        .populer-coin-header h1{
+        font-size: 32px !important;
+    }
+    .populer-coin-header a{
+        color: #F2F2F2;
+    }
+    .populer-coins h1{
+        font-size: 48px;
+    }
+    .coin-table{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .coins{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        font-size: 16px;
+        margin-bottom: 60px;
+        text-align: left;
+        font-weight: 700;
+    }
+    .coins h6{
+        color: #808080;
+        font-size: 14px;
+    }
+    .get-started{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .get-started h2{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .get-started .started{
+        background: #CB2641;
+        border-radius: 9px;
+        color: #F2F2F2;
+        width: 158px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* COIN TABLE END */
+
+    /* NFT STATUS START */
+    .nfts{
+        font-size: 14px;
+    }
+    .nft-sort{
+        font-size: 14px;
+    }
+    /* NFT STATUS END */
+}
+@media screen  and (max-width: 768px){
+    .header {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .header .nav-links{
+        display: none;
+    }
+    .header .nav-links.active{
+        display: flex;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        transition: .3s;
+        z-index: 999;
+        background-color: #1A1A1A;
+    }
+    .header .nav-links a{
+        font-size: 14px;
+        margin: 5px 20px;
+        width: 100%;
+        border-bottom: 1px solid #d4d4d4a7;
+        padding: 10px;
+    }
+    .toggle{
+        display: block;
+    }
+    .header .nav-links .log-items.active{
+        display: flex;
+        width: 80%;
+        align-items: center;
+        margin: 0;
+    }
+    .header .nav-links .log-items a{
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .header .nav-links .log-items #signup{
+        width: 100%;
+        height: 40px;
+        border: none;
+    }
+    /* ACCOUNT AREA START */
+    .account-area{
+        padding: 120px 20px;
+    }
+    .area-1 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .area-2 {
+        font-size: 14px;
+        margin: 20px 0 10px 0;
+    }
+    .landing-image img{
+        width: 100%;
+        height: auto;
+    }
+    .btn {
+        width: 300px;
+        height: 52px;
+        font-size: 16px;
+    }
+    .area-3 img{
+        width: 13%;
+    }
+    /* ACCOUNT AREA END */
+
+    /* COIN TABLE START */
+    .coin-status{
+        padding: 60px 20px;
+    }
+    .populer-coin-header h1{
+        font-size: 22px !important;
+    }
+    .populer-coin-header a{
+        font-size: 12px;
+    }
+    .populer-coins h1{
+        font-size: 48px;
+    }
+    .coins{
+        gap: 40px;
+        font-size: 14px;
+    }
+    .coins h6{
+        font-size: 10px;
+    }
+    .get-started h2{
+        font-size: 20px;
+    }
+    .get-started .started{
+        width: 158px;
+        height: 56px;
+    }
+    /* COIN TABLE END */
+
+    /* NFT STATUS START */
+    .gradient-text {
+    font-size: 40px;
+    }
+    .populer-nft{
+        width: 100%;
+        height: 582px;
+        padding: 60px 20px;
+    }
+    .nfts{
+        font-size: 10px !important;
+}
+.nft-sort{
+    font-size: 14px;
+    margin-right: 18px;
+}
+.nfts h6{
+    font-size: 10px;
+}
+.populer-nft .get-started h2{
+    font-size: 18px;
+}
+/* NFT STATUS END */
+}
+@media screen and (max-width: 555px) {
+    
+    /* NFT STATUS START */
+    .gradient-text {
+        font-size: 28px;
+      }
+.populer-nft h1{
+    font-size: 28px;
+}
+.populer-nft .populer-coin-header a{
+    font-size: 10px;
+}
+.nfts{
+    font-size: 16px;
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+.nft-sort{
+    font-size: 20px;
+    margin-right: 18px;
+}
+.nfts h6{
+    font-size: 14px;
+}
+.populer-nft .get-started h2{
+    font-size: 24px;
+}
+.populer-nft{
+    height: auto;
+}
+.nft-table{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.nfts{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 16px;
+    margin-bottom: 60px;
+    text-align: left;
+    font-weight: 700;
+}
+.populer-nft .get-started h2{
+    font-size: 14px;
+}
+/* NFT STATUS END */
+}
+@media screen  and (max-width: 425px){
+    .header {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .toggle{
+        display: block;
+    }
+    .log-items{
+        margin-left: 20px;
+        gap: 14px;
+    }
+    .header .nav-links .log-items.active{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin: 0 20px;
+    }
+    .header .nav-links .log-items a{
+        width: 60%;
+        text-align: center;
+        font-size: 16px;
+    }
+    .header .nav-links .log-items #signup{
+        width: 100%;
+        height: 40px;
+        margin: 0;
+    }
+    /* ACCOUNT AREA START */
+    .account-area{
+        padding: 120px 20px;
+    }
+    .area-1 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .area-2 {
+        font-size: 14px;
+        margin: 20px 0 10px 0;
+    }
+    .landing-image img{
+        display: none;
+    }
+    .btn {
+        width: 300px;
+        height: 52px;
+        font-size: 16px;
+    }
+    .area-3 img{
+        width: 15%;
+    }
+    /* ACCOUNT AREA END */
+
+    /* COIN TABLE START */
+    .coin-status{
+        padding: 60px 20px;
+    }
+    .populer-coin-header h1{
+        font-size: 18px !important;
+    }
+    .populer-coin-header a{
+        font-size: 10px;
+        color: #F2F2F2;
+    }
+    .coins{
+        gap: 40px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .coins h6{
+        font-size: 10px;
+    }
+    .get-started h2{
+        font-size: 16px;
+    }
+    .get-started .started{
+        width: 138px;
+        height: 50px;
+    }
+    /* COIN TABLE END */
+
+    /* NFT STATUS START */
+    .gradient-text {
+        font-size: 22px;
+      }
+.populer-nft h1{
+    font-size: 22px;
+}
+.populer-nft .populer-coin-header a{
+    font-size: 10px;
+}
+.nfts{
+    font-size: 14px;
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+.nft-sort{
+    font-size: 14px;
+    margin-right: 18px;
+}
+.nfts h6{
+    font-size: 10px;
+}
+.populer-nft .get-started h2{
+    font-size: 24px;
+}
+.populer-nft{
+    height: auto;
+}
+.nft-table{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.nfts{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 22px;
+}
+.populer-nft .get-started h2{
+    font-size: 16px;
+}
+
+/* NFT STATUS END */
+}
+@media screen  and (max-width: 375px){
+    .header {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .toggle{
+        display: block;
+    }
+    .log-items{
+        margin-left: 20px;
+        gap: 14px;
+    }
+    .header .nav-links .log-items.active{
+        width: 100%;
+        margin: 0 20px;
+        font-size: 14px;
+    }
+    .header .nav-links .log-items a{
+        width: 100%;
+    }
+    .header .nav-links .log-items #signup{
+        width: 100%;
+        margin: 0;
+    }
+    
+}
+@media screen  and (max-width: 320px){
+    .header {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .toggle{
+        display: block;
+    }
+    .log-items{
+        margin-left: 20px;
+        gap: 10px;
+    }
+    .header .nav-links .log-items.active{
+        width: 100%;
+        margin: 0;
+    }
+    .header .nav-links .log-items a{
+        width: 100%;
+    }
+    .header .nav-links .log-items #signup{
+        width: 100%;
+        margin: 0;
+    }
+    .header .nav-links a{
+        margin: 5px;
+        padding: 5px;
+    }
+    /* ACCOUNT AREA START */
+    .account-area{
+        padding: 60px 10px;
+    }
+    .area-1 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .area-2 {
+        font-size: 12px;
+        margin: 20px 0 10px 0;
+    }
+    .landing-image img{
+        display: none;
+    }
+    .btn {
+        width: 300px;
+        height: 52px;
+        font-size: 16px;
+    }
+    .area-3 img{
+        width: 19%;
+    }
+    /* ACCOUNT AREA END */
+
+    /* COIN TABLE START */
+    .coin-status{
+        padding: 60px 10px;
+    }
+    .populer-coin-header h1{
+        font-size: 14px !important;
+    }
+    .populer-coin-header a{
+        font-size: 10px;
+        color: #F2F2F2;
+    }
+    .coins{
+        gap: 40px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .coins h6{
+        font-size: 10px;
+    }
+    .get-started h2{
+        font-size: 16px;
+    }
+    .get-started .started{
+        width: 118px;
+        height: 40px;
+        font-size: 14px;
+    }
+    /* COIN TABLE END */
+
+    /* NFT STATUS START */
+    .gradient-text {
+        font-size: 22px;
+      }
+.populer-nft h1{
+    font-size: 22px;
+}
+.populer-nft .populer-coin-header a{
+    font-size: 10px;
+}
+.nfts{
+    font-size: 14px;
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+.nft-sort{
+    font-size: 14px;
+    margin-right: 18px;
+}
+.nfts h6{
+    font-size: 10px;
+}
+.populer-nft .get-started h2{
+    font-size: 24px;
+}
+.populer-nft{
+    height: auto;
+}
+.nft-table{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.nfts{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 14px;
+}
+.populer-nft .get-started h2{
+    font-size: 16px;
+}
+/* NFT STATUS END */
+
+/* FOOTER START */
+.footer{
+    padding: 0 10px;
+    background-color: #AA1830;
+    width: 100%;
+    height: 100px;
+    font-size: 14px;
+    gap: 40px;
+}
+.footer img{
+    width: 100px;
+}
+/* FOOTER END */
+}
